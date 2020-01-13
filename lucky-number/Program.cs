@@ -21,11 +21,11 @@ namespace lucky_number
         {
             if (num == 13 || num == 7)
             {
-                return "Lucky";
+                return $"The number {num} is Lucky";
             }
             else
             {
-                return "Not lucky";
+                return $"The number {num} is NOT lucky";
             }
         }
     }
